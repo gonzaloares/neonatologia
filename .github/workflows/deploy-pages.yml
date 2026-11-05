@@ -1,0 +1,81 @@
+name: Construir y publicar Neonatología
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: neonatologia-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+      - name: Comprobar Markdown
+        run: python scripts/check_markdown_rendering.py
+      - name: Generar recursos instalables y sin conexión
+        run: python scripts/generate_pwa_assets.py "${GITHUB_SHA}"
+      - name: Validar recursos PWA
+        run: |
+          python -m json.tool docs/manifest.webmanifest >/dev/null
+          test -f docs/assets/icons/icon-192.png
+          test -f docs/assets/icons/icon-512.png
+          node --check docs/service-worker.js
+          node --check docs/javascripts/pwa.js
+      - name: Compilar web
+        run: mkdocs build --strict
+      - name: Crear índice de recursos offline
+        run: python scripts/generate_offline_static_urls.py site
+      - name: Instalar generador del PDF
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0 libfribidi0 libfontconfig1
+          python -m pip install 'beautifulsoup4>=4.12,<5' 'weasyprint>=66,<69'
+      - name: Generar manual PDF con índice navegable
+        run: python scripts/build_manual_pdf.py
+      - name: Validar PDF final
+        run: |
+          test -s site/manual-neonatologia.pdf
+          head -c 5 site/manual-neonatologia.pdf | grep -q '%PDF-'
+      - name: Conservar manual descargable
+        uses: actions/upload-artifact@v4
+        with:
+          name: manual-neonatologia
+          path: site/manual-neonatologia.pdf
+          retention-days: 90
+      - name: Preparar paquete GitHub Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Comprobar configuración GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Publicar sitio
+        id: deployment
+        uses: actions/deploy-pages@v4

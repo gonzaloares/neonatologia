@@ -1,0 +1,18 @@
+
+:root { --neo-ink:#163d4a; --neo-accent:#156a80; --neo-soft:#ecf6f8; --neo-border:#c9e0e6; }
+.md-typeset h1 { color:var(--neo-ink); font-weight:750; }
+.md-typeset h2 { color:var(--neo-accent); }
+.md-typeset .protocol-intro, .md-typeset .clinical-card { border-left:4px solid var(--neo-accent); background:var(--neo-soft); border-radius:4px; padding:.85rem 1rem; margin:1rem 0 1.3rem; }
+.md-typeset .area-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:.7rem; margin:1rem 0 1.6rem; }
+.md-typeset .area-grid > ul { display:contents; }
+.md-typeset .area-grid li { list-style:none; margin:0; }
+.md-typeset .area-grid li > a { display:block; height:100%; padding:.85rem 1rem; border:1px solid var(--neo-border); border-radius:9px; background:var(--neo-soft); color:var(--neo-ink); font-weight:650; text-decoration:none; }
+.md-typeset .area-grid li > a:hover, .md-typeset .area-grid li > a:focus-visible { border-color:var(--neo-accent); box-shadow:0 1px 8px #16465220; }
+.md-typeset td, .md-typeset th { overflow-wrap:normal; word-break:normal; hyphens:manual; }
+.pwa-install-panel,.pwa-status-panel { padding:.75rem 1rem; border:1px solid var(--neo-border); border-radius:9px; margin:1rem 0; background:var(--neo-soft); }
+.pwa-install-button,.pwa-status-button,.pwa-update-banner button { display:inline-block; background:var(--neo-accent); color:#fff; border:0; border-radius:6px; padding:.45rem .7rem; font:inherit; cursor:pointer; margin-right:.7rem; }
+.pwa-status-header,.pwa-status-actions { display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; }
+.pwa-status-version,.pwa-status-sync,.pwa-status-offline-ready,.pwa-status-offline-pending { margin-top:.35rem; font-size:.8rem; }
+.pwa-status-badge { font-size:.72rem; opacity:.8; }
+.pwa-update-banner { position:fixed; bottom:1rem; right:1rem; background:#133b49; color:#fff; padding:.75rem; border-radius:8px; z-index:30; box-shadow:0 4px 16px #0b263848; }
+@media(max-width:600px) { .md-typeset .area-grid { grid-template-columns:1fr 1fr; gap:.5rem; } .md-typeset .area-grid li > a { font-size:.76rem; padding:.6rem; } }

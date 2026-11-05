@@ -1,0 +1,64 @@
+site_name: Protocolos de Neonatología
+site_description: Manual clínico neonatal en desarrollo, pendiente de validación asistencial
+site_url: https://gonzaloares.github.io/neonatologia/
+theme:
+  name: material
+  language: es
+  custom_dir: docs/overrides
+  favicon: assets/icons/icon-192.png
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+  palette:
+    primary: teal
+    accent: cyan
+
+nav:
+  - Inicio: index.md
+  - Descargar manual (PDF): https://gonzaloares.github.io/neonatologia/manual-neonatologia.pdf
+  - Manual y calidad:
+      - introduccion/index.md
+      - Criterios editoriales y seguridad: introduccion/criterios-editoriales.md
+  - Sala de partos y reanimación:
+      - sala-partos/index.md
+  - Recién nacido sano:
+      - recien-nacido-sano/index.md
+  - Respiratorio:
+      - respiratorio/index.md
+  - Infeccioso:
+      - infeccioso/index.md
+  - Nutrición y fluidoterapia:
+      - nutricion/index.md
+  - Endocrino-metabólico:
+      - metabolismo/index.md
+  - Ictericia y hematología:
+      - hematologia/index.md
+  - Neurología:
+      - neurologia/index.md
+  - Cardiología:
+      - cardiologia/index.md
+  - Prematuridad y seguimiento:
+      - prematuridad/index.md
+  - Procedimientos y accesos:
+      - procedimientos/index.md
+  - Seguridad y familias:
+      - seguridad/index.md
+plugins:
+  - search:
+      lang: es
+hooks:
+  - hooks/search_accents.py
+markdown_extensions:
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/pwa.js
+strict: true
