@@ -1,7 +1,9 @@
 # Endocrino-metabólico
 
-Hipoglucemia, hiperglucemia, electrolitos y metabolismo mineral.
+## Fichas de consulta rápida
 
-**Estado:** todavía no existen protocolos clínicos validados en esta sección.
+- [Hipoglucemia neonatal: ¿qué hago con esta glucemia?](hipoglucemia-neonatal.md) — **BORRADOR PENDIENTE DE VALIDACIÓN LOCAL**.
 
-[Consultar criterios editoriales](../introduccion/criterios-editoriales.md).
+El contenido clínico está disponible para revisión de formato y de seguridad. Todavía no existe un protocolo asistencial local aprobado en esta sección.
+
+[Consultar criterios de revisión](../introduccion/criterios-editoriales.md).

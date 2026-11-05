@@ -34,6 +34,7 @@ nav:
       - nutricion/index.md
   - Endocrino-metabólico:
       - metabolismo/index.md
+      - 'Hipoglucemia neonatal · borrador': metabolismo/hipoglucemia-neonatal.md
   - Ictericia y hematología:
       - hematologia/index.md
   - Neurología:

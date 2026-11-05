@@ -97,3 +97,13 @@
   .md-typeset .area-grid { grid-template-columns: 1fr 1fr; gap: .5rem; }
   .md-typeset .area-grid li > a { font-size: .76rem; padding: .6rem; }
 }
+
+/* Aviso de seguridad visible en las fichas todavía no validadas. */
+.md-typeset .clinical-card-warning {
+  border-left-color: #b36b12;
+  background: #fff5df;
+  color: #3c301d;
+}
+.md-typeset .clinical-card-warning strong:first-child {
+  color: #80440a;
+}

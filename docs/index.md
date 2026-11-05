@@ -8,9 +8,13 @@ Busca una situación clínica y accede directamente a **qué hacer ahora, cómo 
 
 [**Versión PDF de consulta rápida**](https://gonzaloares.github.io/neonatologia/manual-neonatologia.pdf) · recopilación descargable de las fichas, no un manual teórico.
 
-**Estado actual:** estructura de navegación preparada; todavía no se han incorporado ni validado fichas clínicas. No utilizar los apartados de preparación como instrucciones asistenciales.
+**Estado:** primera ficha clínica disponible **como borrador para revisión**, no validado aún por el centro. No utilizar borradores como instrucciones asistenciales.
 
 </div>
+
+## Fichas en revisión
+
+- [**Hipoglucemia neonatal: ¿qué hago con esta glucemia?**](metabolismo/hipoglucemia-neonatal.md) — **borrador para validar**. Incluye algoritmo, tratamiento, ejemplos por peso y monitorización.
 
 ## Acceso por problemas clínicos
 
