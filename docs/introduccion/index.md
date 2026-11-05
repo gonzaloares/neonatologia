@@ -1,5 +1,7 @@
-# Manual y calidad
+# Criterios y seguridad
 
-Este apartado documenta la redacción, revisión y mantenimiento de los protocolos. **La infraestructura está preparada, pero los contenidos asistenciales todavía no se han validado.**
+Esta sección explica cómo redactar y verificar **fichas de consulta rápida para la guardia**. No son capítulos teóricos: deben responder a decisiones prácticas y relevantes.
 
-- [Criterios editoriales y seguridad](criterios-editoriales.md)
+- [Criterios de redacción y seguridad](criterios-editoriales.md)
+
+**Estado actual:** estructura técnica disponible; fichas clínicas todavía pendientes de incorporación y validación.

@@ -22,7 +22,7 @@ PRINT_CSS = """
 @page {
   size: A4;
   margin: 19mm 17mm 18mm;
-  @bottom-left { content: 'Manual de Neonatología'; font: 8pt 'DejaVu Sans', sans-serif; color: #647a94; }
+  @bottom-left { content: 'Consulta rápida de Neonatología'; font: 8pt 'DejaVu Sans', sans-serif; color: #647a94; }
   @bottom-right { content: counter(page); font: 8pt 'DejaVu Sans', sans-serif; color: #647a94; }
 }
 @page :first { @bottom-left { content: none; } @bottom-right { content: none; } }
@@ -316,9 +316,9 @@ def build(site: Path, config: Path, output: Path, public_url: str):
         toc.append(f'<section class="contents-group"><h2>{escape(group)}</h2>{links}</section>')
 
     today = datetime.now(timezone.utc).strftime('%d/%m/%Y')
-    html = f'''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>Manual de Neonatología</title><style>{PRINT_CSS}</style></head><body>
-      <section class="cover"><div class="cover-kicker">PROTOCOLOS CLÍNICOS</div><h1>Manual de<br>Neonatología</h1>
-      <div class="cover-rule"></div><p class="cover-subtitle">Edición digital compilada de los protocolos del repositorio</p>
+    html = f'''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>Consulta rápida de Neonatología</title><style>{PRINT_CSS}</style></head><body>
+      <section class="cover"><div class="cover-kicker">PROTOCOLOS CLÍNICOS</div><h1>Consulta rápida de<br>Neonatología</h1>
+      <div class="cover-rule"></div><p class="cover-subtitle">Fichas clínicas operativas para responder a dudas de guardia</p>
       <p class="cover-meta">Actualizado: {today} · {len(chapters)} capítulos<br>Fuente: <a href="{escape(public_url)}">{escape(public_url)}</a></p></section>
       <section class="contents"><h1>Índice de contenidos</h1>{''.join(toc)}</section>
       {''.join(rendered)}

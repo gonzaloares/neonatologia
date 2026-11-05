@@ -1,18 +1,18 @@
-# Protocolos de Neonatología
+# Neonatología · Consulta rápida de guardia
 
 <div class="protocol-intro" markdown="1">
 
-**Manual digital de Neonatología**
+**Respuestas operativas a las dudas que surgen durante la guardia.**
 
-[**Descargar manual en PDF**](https://gonzaloares.github.io/neonatologia/manual-neonatologia.pdf)
+Busca una situación clínica y accede directamente a **qué hacer ahora, cómo tratar, cuándo controlar y cuándo ingresar o trasladar**.
 
-El PDF y la web se generan automáticamente al actualizar el repositorio.
+[**Versión PDF de consulta rápida**](https://gonzaloares.github.io/neonatologia/manual-neonatologia.pdf) · recopilación descargable de las fichas, no un manual teórico.
 
-**Estado: infraestructura preparada; protocolos clínicos pendientes de incorporación y validación.** La edición inicial del PDF contiene solo criterios editoriales, no instrucciones clínicas.
+**Estado actual:** estructura de navegación preparada; todavía no se han incorporado ni validado fichas clínicas. No utilizar los apartados de preparación como instrucciones asistenciales.
 
 </div>
 
-## Áreas del manual
+## Acceso por problemas clínicos
 
 <div class="area-grid" markdown="1">
 
@@ -31,4 +31,10 @@ El PDF y la web se generan automáticamente al actualizar el repositorio.
 
 </div>
 
-Los apartados de nivel 2 de cada protocolo se incorporarán automáticamente al miníndice y los marcadores del PDF. [Consultar el sistema editorial](introduccion/criterios-editoriales.md).
+## Cómo serán las fichas de guardia
+
+Cada ficha comenzará con la **pregunta clínica concreta** y una **respuesta rápida**. Después aparecerán una tabla o algoritmo de decisión, dosis y preparaciones verificadas, la monitorización con tiempos y los criterios para solicitar ayuda o trasladar.
+
+Los fundamentos y la bibliografía se ubicarán al final, para que no retrasen las decisiones inmediatas.
+
+[Ver el criterio de redacción y seguridad](introduccion/criterios-editoriales.md).

@@ -1,5 +1,5 @@
-site_name: Protocolos de Neonatología
-site_description: Manual clínico neonatal en desarrollo, pendiente de validación asistencial
+site_name: Neonatología · Consulta rápida de guardia
+site_description: Fichas rápidas de decisión neonatal para la guardia, pendientes de validación clínica
 site_url: https://gonzaloares.github.io/neonatologia/
 theme:
   name: material
@@ -18,10 +18,10 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Descargar manual (PDF): https://gonzaloares.github.io/neonatologia/manual-neonatologia.pdf
-  - Manual y calidad:
+  - Consulta rápida (PDF): https://gonzaloares.github.io/neonatologia/manual-neonatologia.pdf
+  - Criterios y seguridad:
       - introduccion/index.md
-      - Criterios editoriales y seguridad: introduccion/criterios-editoriales.md
+      - Criterios de redacción y seguridad: introduccion/criterios-editoriales.md
   - Sala de partos y reanimación:
       - sala-partos/index.md
   - Recién nacido sano:

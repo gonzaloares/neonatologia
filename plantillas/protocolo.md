@@ -1,34 +1,57 @@
-# [Título clínico específico]
+# [Pregunta concreta de guardia: ¿qué hacer ante ...?]
 
-> **BORRADOR NO VALIDADO** · Responsable: [nombre y cargo] · Versión: [n] · Fecha: [AAAA-MM-DD] · Revisión prevista: [AAAA-MM-DD]
+> **BORRADOR NO VALIDADO — NO UTILIZAR PARA DECISIONES ASISTENCIALES**
+>
+> Responsable: [nombre] · Versión: [número] · Última revisión: [AAAA-MM-DD] · Próxima revisión: [AAAA-MM-DD]
+>
+> Ámbito: [edad gestacional y posnatal, peso y situación clínica a la que se aplica]
 
-## Objetivo y ámbito
-[Población, edad gestacional, edad posnatal y limitaciones locales.]
+## Respuesta rápida: qué hacer ahora
 
-## Evaluación inicial y signos de alarma
-[Estabilización, parámetros y criterios de escalada con fuentes.]
+[En 3–6 pasos breves, decir qué comprobar y qué hacer. Primero seguridad y estabilización. No abrir con fisiopatología.]
 
-## Criterios diagnósticos y pruebas indicadas
-[Indicar exactamente pruebas, muestras y momento.]
+## Datos que cambian la decisión
 
-## Tratamiento paso a paso
-[Secuencia de decisiones; dosis, vía, dilución y velocidad revisadas.]
+| Comprobar | Por qué importa | Acción condicionada |
+|---|---|---|
+| [peso / semanas / horas / síntoma] | [impacto clínico] | [decisión validada] |
 
-## Monitorización y reevaluación
-| Momento | Control | Objetivo | Respuesta si no se alcanza |
+## Diagnóstico y pruebas
+
+[Qué solicitar, cuándo y cuáles resultados modifican la conducta. Evitar analíticas por rutina injustificada.]
+
+## Tratamiento y preparación
+
+[Decisiones clínicas, dosis y vías verificadas. Si corresponde, indicar cálculo en mg/kg, concentración final, diluyente, volumen en mL, velocidad en mL/h, máximos y compatibilidades.]
+
+**Seguridad:** [condiciones de exclusión, contraindicaciones, errores frecuentes de preparación].
+
+## Controles y ajustes
+
+| Cuándo | Qué comprobar | Objetivo validado | Qué hacer si no mejora |
 |---|---|---|---|
-| [intervalo] | [parámetro] | [objetivo] | [escalada] |
+| [intervalo] | [medición] | [objetivo] | [revaluación/escalada] |
 
-## Criterios de ingreso, UCIN o traslado
-[Adaptar a la capacidad resolutiva de la unidad.]
+## Cuándo ingresar, llamar o trasladar
 
-## Alta y seguimiento
-[Cuidados, información a familias y controles.]
+[Señales de gravedad, capacidad resolutiva de nivel IIB, intervención inicial y activación del circuito de traslado.]
 
-## Algoritmo
-[Árbol de decisiones validado.]
+## Alta y seguimiento, si procede
 
-## Bibliografía
-1. [Referencia con año, URL y fecha de consulta.]
+[Condiciones y controles posteriores; información a la familia.]
 
-> **Antes de publicar:** revisión clínica y farmacológica independiente, con validación local.
+## Algoritmo de decisión
+
+[Diagrama o secuencia vertical de lectura rápida con ramas y tiempos.]
+
+## Notas clínicas y diferencias entre guías
+
+[Fundamento esencial y decisiones que dependan del contexto; mantener breve.]
+
+## Fuentes y validación
+
+1. [Guía de referencia, año, enlace y fecha de revisión.]
+
+[Responsable de validación local, fecha y notas de Farmacia cuando proceda.]
+
+> **Antes de publicar como vigente:** revisión asistencial local y farmacológica independiente.
