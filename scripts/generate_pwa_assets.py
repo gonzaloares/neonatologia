@@ -27,8 +27,8 @@ def chunk(kind: bytes, data: bytes) -> bytes:
 
 
 def write_icon(path: Path, size: int) -> None:
-    """Crea un icono PNG teal con cruz médica blanca, sin dependencias externas."""
-    teal = (21, 106, 128, 255)
+    """Crea un icono PNG azul con cruz médica blanca, sin dependencias externas."""
+    blue = (23, 75, 131, 255)
     white = (255, 255, 255, 255)
 
     cross_thickness = max(8, round(size * 0.16))
@@ -51,7 +51,7 @@ def write_icon(path: Path, size: int) -> None:
         for x in range(size):
             in_vertical = v_left <= x < v_right and v_top <= y < v_bottom
             in_horizontal = h_left <= x < h_right and h_top <= y < h_bottom
-            rows.extend(white if in_vertical or in_horizontal else teal)
+            rows.extend(white if in_vertical or in_horizontal else blue)
 
     ihdr = struct.pack(">IIBBBBB", size, size, 8, 6, 0, 0, 0)
     png = (

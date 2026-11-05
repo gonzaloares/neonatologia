@@ -13,8 +13,8 @@ theme:
     - toc.follow
     - search.suggest
   palette:
-    primary: teal
-    accent: cyan
+    primary: blue
+    accent: light blue
 
 nav:
   - Inicio: index.md

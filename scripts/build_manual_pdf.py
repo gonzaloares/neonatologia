@@ -22,26 +22,26 @@ PRINT_CSS = """
 @page {
   size: A4;
   margin: 19mm 17mm 18mm;
-  @bottom-left { content: 'Manual de Neonatología'; font: 8pt 'DejaVu Sans', sans-serif; color: #718096; }
-  @bottom-right { content: counter(page); font: 8pt 'DejaVu Sans', sans-serif; color: #718096; }
+  @bottom-left { content: 'Manual de Neonatología'; font: 8pt 'DejaVu Sans', sans-serif; color: #647a94; }
+  @bottom-right { content: counter(page); font: 8pt 'DejaVu Sans', sans-serif; color: #647a94; }
 }
 @page :first { @bottom-left { content: none; } @bottom-right { content: none; } }
 * { box-sizing: border-box; }
-html { font-family: 'DejaVu Sans', sans-serif; color: #24343b; font-size: 9.2pt; }
+html { font-family: 'DejaVu Sans', sans-serif; color: #263b53; font-size: 9.2pt; }
 body { line-height: 1.48; }
-h1, h2, h3, h4 { color: #0c625f; line-height: 1.25; break-after: avoid; }
+h1, h2, h3, h4 { color: #174b83; line-height: 1.25; break-after: avoid; }
 h1 { font-size: 17pt; margin: 0 0 12pt; }
-h2 { font-size: 12.5pt; padding-bottom: 4pt; border-bottom: 1px solid #cbdeda; margin: 17pt 0 8pt; }
+h2 { font-size: 12.5pt; padding-bottom: 4pt; border-bottom: 1px solid #cbdcf0; margin: 17pt 0 8pt; }
 h3 { font-size: 10.5pt; margin: 12pt 0 5pt; }
 p { margin: 5pt 0 8pt; orphans: 2; widows: 2; }
 li { margin: 2pt 0; }
 ul, ol { padding-left: 17pt; margin: 5pt 0 8pt; }
-a { color: #116b77; text-decoration: none; overflow-wrap: anywhere; }
+a { color: #1769aa; text-decoration: none; overflow-wrap: anywhere; }
 strong, b { font-weight: 700; }
 table { border-collapse: collapse; width: 100%; max-width: 100%; font-size: 7.6pt; table-layout: auto; margin: 9pt 0 12pt; }
-th, td { border: 0.5pt solid #b9cecb; padding: 3pt 4pt; vertical-align: top; overflow-wrap: normal; word-break: normal; hyphens: manual; }
+th, td { border: 0.5pt solid #bdcfe5; padding: 3pt 4pt; vertical-align: top; overflow-wrap: normal; word-break: normal; hyphens: manual; }
 th a, td a { overflow-wrap: normal; word-break: normal; }
-th { background: #e7f2f0; color: #155f5d; }
+th { background: #e8f2ff; color: #173f6b; }
 table.print-score-table th:first-child, table.print-score-table td:first-child { width: 31%; }
 table.print-score-table th:nth-child(2), table.print-score-table td:nth-child(2) { width: 13%; white-space: nowrap; }
 table.print-score-table th:last-child, table.print-score-table td:last-child { width: 56%; }
@@ -49,9 +49,9 @@ tr { break-inside: avoid; }
 thead { display: table-header-group; }
 img, svg { max-width: 100%; height: auto; }
 pre, code { font-family: 'DejaVu Sans Mono', monospace; overflow-wrap: anywhere; }
-pre { white-space: pre-wrap; font-size: 7.5pt; background: #f1f5f5; padding: 7pt; }
+pre { white-space: pre-wrap; font-size: 7.5pt; background: #f2f6fb; padding: 7pt; }
 .chapter { break-before: page; }
-.chapter .section-name { color: #6b8380; font-weight: bold; font-size: 9pt; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 8pt; }
+.chapter .section-name { color: #637d99; font-weight: bold; font-size: 9pt; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 8pt; }
 /* The PDF outline mirrors the area -> protocol -> subsection hierarchy. */
 .chapter .area-bookmark { bookmark-level: 1; bookmark-label: content(text); }
 .chapter .md-content__inner h1 { bookmark-level: 2; }
@@ -62,8 +62,8 @@ pre { white-space: pre-wrap; font-size: 7.5pt; background: #f1f5f5; padding: 7pt
 .cover h1, .contents h1, .contents h2 { bookmark-level: none; }
 /* Compact, clickable local contents, only in the PDF. */
 .protocol-mini-toc {
-  background: #f4f8f8;
-  border: 0.7pt solid #cddfdd;
+  background: #f2f7ff;
+  border: 0.7pt solid #cfdded;
   border-radius: 4pt;
   padding: 8pt 10pt;
   margin: 8pt 0 13pt;
@@ -73,7 +73,7 @@ pre { white-space: pre-wrap; font-size: 7.5pt; background: #f1f5f5; padding: 7pt
   margin: 0;
   font-size: 8.5pt;
   font-weight: bold;
-  color: #125f5d;
+  color: #174b83;
 }
 .protocol-mini-toc ul {
   columns: 2;
@@ -89,22 +89,22 @@ pre { white-space: pre-wrap; font-size: 7.5pt; background: #f1f5f5; padding: 7pt
   overflow-wrap: normal;
   word-break: normal;
 }
-.protocol-mini-toc a { color: #1b6471; }
+.protocol-mini-toc a { color: #1769aa; }
 
 .chapter .md-content__inner > h1:first-child { margin-top: 0; }
 .cover { break-after: page; padding-top: 60mm; }
-.cover-kicker { color: #268e8a; font-size: 12pt; letter-spacing: .15em; }
+.cover-kicker { color: #337fc2; font-size: 12pt; letter-spacing: .15em; }
 .cover h1 { font-size: 36pt; line-height: 1.14; margin: 13mm 0 7mm; }
-.cover-subtitle { font-size: 13pt; color: #516569; }
-.cover-rule { width: 38mm; height: 3pt; background: #1e8883; margin: 15mm 0; }
-.cover-meta { color: #5f7777; margin-top: 20mm; font-size: 9pt; }
+.cover-subtitle { font-size: 13pt; color: #526b84; }
+.cover-rule { width: 38mm; height: 3pt; background: #2376b8; margin: 15mm 0; }
+.cover-meta { color: #617791; margin-top: 20mm; font-size: 9pt; }
 .contents { break-after: page; }
 .contents h1 { font-size: 22pt; }
 .contents-group { margin: 12pt 0 7pt; break-inside: avoid; }
 .contents-group h2 { font-size: 10.5pt; border: none; margin: 0 0 4pt; }
 .contents-item { margin: 3pt 0 3pt 11pt; font-size: 8.6pt; }
 .protocol-intro, .clinical-card, .dose-card, .calculator-note {
-  display: block; border-left: 3pt solid #248783; background: #f0f8f6;
+  display: block; border-left: 3pt solid #2475b2; background: #eef6ff;
   padding: 7pt 9pt; margin: 10pt 0; break-inside: avoid;
 }
 .clinical-card-warning { border-left-color: #bf8a20; background: #fff8e9; }
