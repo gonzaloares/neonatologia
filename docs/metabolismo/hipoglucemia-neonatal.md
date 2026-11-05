@@ -1,29 +1,43 @@
-# Hipoglucemia neonatal: ¿qué hago con esta glucemia?
+# Hipoglucemia neonatal
 
-<div class="clinical-card clinical-card-warning" markdown="1">
+<nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
+  <a href="#inicial">Actuación inicial</a>
+  <a href="#cribado">Cribado</a>
+  <a href="#gel">Gel de glucosa</a>
+  <a href="#iv">Glucosa IV</a>
+  <a href="#ajustes">Ajustes</a>
+  <a href="#controles">Controles</a>
+  <a href="#destino">Ingreso / traslado</a>
+  <a href="#persistente">Persistente</a>
+  <a href="#algoritmo">Algoritmo</a>
+  <a href="#guias">Guías</a>
+  <a href="#bibliografia">Bibliografía</a>
+</nav>
 
-**BORRADOR CLÍNICO PARA REVISIÓN — NO VALIDADO POR EL CENTRO.**
+<div class="protocol-intro" markdown="1">
 
-**Ámbito:** RN de riesgo, clínicamente estables, de **≥35 semanas de gestación** durante las **primeras 72 horas de vida**. El tratamiento urgente del RN sintomático se recoge también aquí. En grandes prematuros, enfermedad crítica o nutrición parenteral, individualizar con Neonatología.
+**Consulta rápida.** Cribado y tratamiento de la hipoglucemia neonatal durante las primeras 72 horas. En el RN de riesgo se utiliza como objetivo de intervención una glucemia de **47 mg/dL (2,6 mmol/L)**.
 
-**Referencia elegida para el algoritmo:** Canadian Paediatric Society (CPS, actualización 2025). **Objetivo operativo en las primeras 72 h: glucemia ≥47 mg/dL (2,6 mmol/L).** Los umbrales de BAPM son diferentes y **no se deben mezclar** dentro de un mismo algoritmo.
+Los umbrales deben interpretarse según clínica, horas de vida y riesgo individual. Las glucemias graves o sintomáticas requieren tratamiento sin esperar confirmación de laboratorio.
 
 </div>
 
-## ¿Qué hago ahora? Decisión en 30 segundos
+<a id="inicial"></a>
+## 1. Actuación inmediata y umbrales
 
 | Situación | Acción inmediata | Próximo control |
 |---|---|---|
 | **Síntomas** y glucemia **<47 mg/dL** | **Avisar, monitorizar, canalizar vía e iniciar glucosa IV.** Si hay compromiso neurológico, **glucosa 10 % IV 2 mL/kg**, seguida **sin interrupción** de perfusión | **30 min** después de la intervención |
 | **Asintomático**, glucemia **<32 mg/dL** (<1,8 mmol/L) | **Glucosa IV urgente.** No demorar por una nueva toma oral; confirmar en laboratorio sin retrasar la corrección | **30 min** |
-| **Asintomático**, **32–46 mg/dL** (1,8–2,5 mmol/L) | **Toma eficaz + gel de glucosa al 40 % 0,5 mL/kg** en mucosa bucal si disponible y autorizado | **30 min** |
+| **Asintomático**, **32–46 mg/dL** (1,8–2,5 mmol/L) | **Toma eficaz + gel de glucosa al 40 % 0,5 mL/kg** en mucosa bucal cuando esté disponible | **30 min** |
 | **≥47 mg/dL** (≥2,6 mmol/L) | Mantener alimentación y cribado según riesgo | Antes de tomas, **cada 3–6 h** según situación |
 
 **Si tras la primera intervención la glucemia continúa <47 mg/dL**, comprobar que la alimentación fue eficaz y **escalar a glucosa IV**; la posibilidad de una segunda dosis de gel debe estar regulada por el protocolo local y nunca retrasar la vía IV en un RN grave.
 
 **No esperar el resultado del laboratorio para tratar una hipoglucemia sintomática o grave.** La glucemia capilar puede ser imprecisa en rangos bajos: enviar muestra para confirmación plasmática cuando sea posible, especialmente en cifras graves, recurrentes o persistentes.
 
-## ¿A quién debo medir la glucemia y cuándo?
+<a id="cribado"></a>
+## 2. Cribado y factores de riesgo
 
 **Cribado indicado:** hijo de madre diabética, pequeño para edad gestacional o con retraso de crecimiento, grande para edad gestacional, prematuro (<37 semanas), asfixia/estrés perinatal y otros factores clínicos de riesgo (p. ej., hipotermia, dificultades importantes de alimentación o tratamiento materno con labetalol).
 
@@ -33,11 +47,12 @@
 
 **Síntomas que obligan a medir sin demora:** temblores persistentes, letargia, hipotonía, rechazo de tomas, apnea, cianosis, crisis convulsiva o alteración del nivel de conciencia. Buscar simultáneamente otras causas (sepsis, hipoxia, alteraciones metabólicas).
 
-## ¿Cómo administro el gel de glucosa al 40 %?
+<a id="gel"></a>
+## 3. Tratamiento oral y gel de glucosa
 
 **Solo si el RN está estable, despierto y puede alimentarse de forma segura.**
 
-1. Utilizar **gel de glucosa al 40 % de uso bucal**, conforme a la presentación y a la política farmacológica del centro.
+1. Utilizar **gel de glucosa al 40 % de uso bucal**, conforme a la presentación autorizada para uso neonatal.
 2. Dosis: **0,5 mL/kg por vía bucal** = **200 mg/kg de glucosa**.
 3. Repartir la dosis sobre la **mucosa interna de ambas mejillas** y masajear suavemente. **No es una toma oral de gel para deglutir.**
 4. Administrar inmediatamente una **toma eficaz** (pecho, leche extraída o suplemento según valoración).
@@ -45,7 +60,8 @@
 
 **Nunca sustituye la perfusión IV** cuando hay síntomas neurológicos, compromiso clínico o hipoglucemia grave. Si la vía tarda en obtenerse, el gel puede ser una **medida puente**, no el tratamiento definitivo.
 
-## ¿Cómo inicio glucosa intravenosa?
+<a id="iv"></a>
+## 4. Tratamiento intravenoso
 
 ### 1. Rescate inicial cuando hay clínica importante
 
@@ -80,7 +96,8 @@ En el RN asintomático sin afectación neurológica, **no administrar bolos de m
 
 **Ejemplo de guardia (RN 3 kg):** si precisa rescate, **G10 % 6 mL IV**, seguido de **G10 % a 10 mL/h**. La perfusión aporta 5,6 mg/kg/min. Repetir glucemia **30 min** después. Verificar la indicación del bolo y el balance total de fluidos.
 
-## ¿Qué hago si a los 30 minutos sigue baja?
+<a id="ajustes"></a>
+## 5. Hipoglucemia refractaria y ajustes
 
 1. **Confirmar la medición y el estado clínico**, sin interrumpir un rescate necesario. Comprobar vía venosa, bomba, concentración preparada y velocidad real.
 2. Si **<47 mg/dL**, **aumentar el aporte de glucosa**, mediante velocidad o concentración de la perfusión según los límites de fluidoterapia y el acceso disponibles.
@@ -90,7 +107,8 @@ En el RN asintomático sin afectación neurológica, **no administrar bolos de m
 
 **Ejemplo para comprender los ajustes (RN 3 kg):** G10 % a **10 mL/h** aporta **5,6 mg/kg/min**; a **12,5 mL/h**, **6,9 mg/kg/min**. **No aumentar automáticamente el volumen** si la restricción hídrica no lo permite: valorar una concentración diferente y tipo de acceso con Neonatología/Farmacia. No preparar concentraciones superiores sin protocolo de mezclas y compatibilidades.
 
-## ¿Cuándo y con qué frecuencia repito los controles?
+<a id="controles"></a>
+## 6. Monitorización y retirada de la perfusión
 
 | Momento | Control | Conducta |
 |---|---|---|
@@ -102,7 +120,8 @@ En el RN asintomático sin afectación neurológica, **no administrar bolos de m
 
 **Fin del cribado en RN que nunca ha precisado tratamiento IV, asintomático y con tomas establecidas:** en hijo de madre diabética o grande para edad gestacional, habitualmente **a las 12 h**, si las glucemias siguen ≥47 mg/dL; en pequeño para edad gestacional y prematuro, habitualmente **a las 24 h** si se alimenta eficazmente y sigue ≥47 mg/dL. Prolongar ante incidencias, valores previos bajos o dificultades de alimentación.
 
-## ¿Cuándo ingresar, pedir ayuda o trasladar?
+<a id="destino"></a>
+## 7. Ingreso y traslado
 
 **Ingreso en unidad neonatal y monitorización estrecha** ante necesidad de glucosa IV, síntomas, hipoglucemia grave, episodios recurrentes, problemas de alimentación o sospecha de enfermedad concomitante.
 
@@ -116,7 +135,8 @@ En el RN asintomático sin afectación neurológica, **no administrar bolos de m
 
 **Durante la preparación del traslado:** mantener glucosa IV sin interrupciones, verificar concentración y velocidad, controles frecuentes y documentar glucemias, tratamientos y respuesta.
 
-## ¿Y si tiene 72 horas o más?
+<a id="persistente"></a>
+## 8. Hipoglucemia persistente (≥72 horas)
 
 No aplicar sin más los umbrales de adaptación transicional.
 
@@ -126,7 +146,8 @@ No aplicar sin más los umbrales de adaptación transicional.
 - Si la hipoglucemia es **grave o recurrente antes de 72 h**, **adelantar** la investigación por sospecha de causa patológica.
 - **No realizar pruebas de ayuno ni alta de hipoglucemia persistente sin supervisión especializada.**
 
-## Algoritmo resumido
+<a id="algoritmo"></a>
+## 9. Algoritmo de actuación
 
 **RN de riesgo → medir glucemia (primera a las 2 h; antes si síntomas).**
 
@@ -139,7 +160,8 @@ No aplicar sin más los umbrales de adaptación transicional.
 **≥47 mg/dL**  
 → alimentación y cribado preprandial según riesgo. **Persistencia/repetición o ≥72 h** → investigar y consultar.
 
-## ¿Por qué estos umbrales? Diferencias entre guías
+<a id="guias"></a>
+## 10. Diferencias entre guías
 
 **CPS 2025:** para el RN de riesgo en las primeras 72 h propone **intervenir por debajo de 2,6 mmol/L (≈47 mg/dL)** y conseguir ≥2,6. En asintomáticos de **1,8–2,5 mmol/L**, propone alimentación/gel y reevaluación a 30 min; si hay clínica o fracaso, IV.
 
@@ -147,10 +169,10 @@ No aplicar sin más los umbrales de adaptación transicional.
 
 **Pediatric Endocrine Society:** prioriza excluir trastornos de hipoglucemia persistente y objetivos más altos cuando hay sospecha de una causa congénita.
 
-## Bibliografía y validación
+<a id="bibliografia"></a>
+## 11. Bibliografía
 
 1. **Canadian Paediatric Society.** *The screening and management of newborns at risk for low blood glucose*. Actualización 28/03/2025. https://cps.ca/en/documents/position/newborns-at-risk-for-low-blood-glucose
 2. **British Association of Perinatal Medicine (BAPM).** *Identification and Management of Neonatal Hypoglycaemia in the Full Term Infant (Birth–72 hours)*. Actualización 2024. https://www.bapm.org/resources/identification-and-management-of-neonatal-hypoglycaemia-in-the-full-term-infant-birth-72-hours
 3. **Pediatric Endocrine Society.** Thornton PS et al. *Recommendations for Evaluation and Management of Persistent Hypoglycemia in Neonates, Infants, and Children*. J Pediatr. 2015;167:238–245. https://pmc.ncbi.nlm.nih.gov/articles/PMC11891912/
 
-**Borrador elaborado:** 05/11/2026. **Pendiente:** revisión de umbrales por el servicio, disponibilidad y ficha técnica del gel al 40 %, diluciones/preparaciones de Farmacia, política de fluidoterapia por día de vida, criterios y circuito de traslado, y aprobación asistencial. **No utilizar como protocolo local vigente hasta completar la validación.**

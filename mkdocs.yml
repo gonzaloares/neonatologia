@@ -1,5 +1,5 @@
-site_name: Neonatología · Consulta rápida de guardia
-site_description: Fichas rápidas de decisión neonatal para la guardia, pendientes de validación clínica
+site_name: Protocolos de Neonatología
+site_description: Protocolos prácticos de Neonatología para la guardia
 site_url: https://gonzaloares.github.io/neonatologia/
 theme:
   name: material
@@ -18,10 +18,7 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Consulta rápida (PDF): https://gonzaloares.github.io/neonatologia/manual-neonatologia.pdf
-  - Criterios y seguridad:
-      - introduccion/index.md
-      - Criterios de redacción y seguridad: introduccion/criterios-editoriales.md
+  - Descargar manual (PDF): https://gonzaloares.github.io/neonatologia/manual-neonatologia.pdf
   - Sala de partos y reanimación:
       - sala-partos/index.md
   - Recién nacido sano:
@@ -34,7 +31,7 @@ nav:
       - nutricion/index.md
   - Endocrino-metabólico:
       - metabolismo/index.md
-      - 'Hipoglucemia neonatal · borrador': metabolismo/hipoglucemia-neonatal.md
+      - Hipoglucemia neonatal: metabolismo/hipoglucemia-neonatal.md
   - Ictericia y hematología:
       - hematologia/index.md
   - Neurología:
@@ -47,6 +44,9 @@ nav:
       - procedimientos/index.md
   - Seguridad y familias:
       - seguridad/index.md
+  - Criterios editoriales:
+      - introduccion/index.md
+      - Criterios de redacción y seguridad: introduccion/criterios-editoriales.md
 plugins:
   - search:
       lang: es
