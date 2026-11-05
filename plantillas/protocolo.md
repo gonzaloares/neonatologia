@@ -1,57 +1,54 @@
-# [Pregunta concreta de guardia: ¿qué hacer ante ...?]
+# [Título del protocolo]
 
-> **BORRADOR NO VALIDADO — NO UTILIZAR PARA DECISIONES ASISTENCIALES**
->
-> Responsable: [nombre] · Versión: [número] · Última revisión: [AAAA-MM-DD] · Próxima revisión: [AAAA-MM-DD]
->
-> Ámbito: [edad gestacional y posnatal, peso y situación clínica a la que se aplica]
+<nav class="protocol-shortcuts" aria-label="Accesos rápidos del protocolo">
+  <a href="#valoracion">Valoración</a>
+  <a href="#diagnostico">Diagnóstico</a>
+  <a href="#tratamiento">Tratamiento</a>
+  <a href="#controles">Controles</a>
+  <a href="#destino">Ingreso / traslado</a>
+  <a href="#algoritmo">Algoritmo</a>
+  <a href="#bibliografia">Bibliografía</a>
+</nav>
 
-## Respuesta rápida: qué hacer ahora
+<div class="protocol-intro" markdown="1">
 
-[En 3–6 pasos breves, decir qué comprobar y qué hacer. Primero seguridad y estabilización. No abrir con fisiopatología.]
+**Consulta rápida.** [Situación clínica y objetivo principal en dos o tres líneas.]
 
-## Datos que cambian la decisión
+</div>
 
-| Comprobar | Por qué importa | Acción condicionada |
-|---|---|---|
-| [peso / semanas / horas / síntoma] | [impacto clínico] | [decisión validada] |
+<a id="valoracion"></a>
+## 1. Valoración inicial
 
-## Diagnóstico y pruebas
+[Signos de alarma, edad gestacional y horas de vida relevantes.]
 
-[Qué solicitar, cuándo y cuáles resultados modifican la conducta. Evitar analíticas por rutina injustificada.]
+<a id="diagnostico"></a>
+## 2. Diagnóstico
 
-## Tratamiento y preparación
+[Criterios, pruebas y confirmación.]
 
-[Decisiones clínicas, dosis y vías verificadas. Si corresponde, indicar cálculo en mg/kg, concentración final, diluyente, volumen en mL, velocidad en mL/h, máximos y compatibilidades.]
+<a id="tratamiento"></a>
+## 3. Tratamiento
 
-**Seguridad:** [condiciones de exclusión, contraindicaciones, errores frecuentes de preparación].
+[Pasos con dosis, vía, concentración, volumen y velocidad. Tablas según peso cuando sea útil.]
 
-## Controles y ajustes
+<a id="controles"></a>
+## 4. Controles y reevaluación
 
-| Cuándo | Qué comprobar | Objetivo validado | Qué hacer si no mejora |
+| Momento | Control | Objetivo | Ajuste |
 |---|---|---|---|
-| [intervalo] | [medición] | [objetivo] | [revaluación/escalada] |
+| [intervalo] | [variable] | [objetivo] | [acción] |
 
-## Cuándo ingresar, llamar o trasladar
+<a id="destino"></a>
+## 5. Ingreso, UCIN y traslado
 
-[Señales de gravedad, capacidad resolutiva de nivel IIB, intervención inicial y activación del circuito de traslado.]
+[Criterios y actuaciones para estabilización.]
 
-## Alta y seguimiento, si procede
+<a id="algoritmo"></a>
+## 6. Algoritmo
 
-[Condiciones y controles posteriores; información a la familia.]
+[Esquema de decisión.]
 
-## Algoritmo de decisión
+<a id="bibliografia"></a>
+## 7. Bibliografía
 
-[Diagrama o secuencia vertical de lectura rápida con ramas y tiempos.]
-
-## Notas clínicas y diferencias entre guías
-
-[Fundamento esencial y decisiones que dependan del contexto; mantener breve.]
-
-## Fuentes y validación
-
-1. [Guía de referencia, año, enlace y fecha de revisión.]
-
-[Responsable de validación local, fecha y notas de Farmacia cuando proceda.]
-
-> **Antes de publicar como vigente:** revisión asistencial local y farmacológica independiente.
+1. [Referencia científica con año y enlace].

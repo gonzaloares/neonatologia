@@ -1,7 +1,5 @@
-# Criterios y seguridad
+# Criterios editoriales
 
-Esta sección explica cómo redactar y verificar **fichas de consulta rápida para la guardia**. No son capítulos teóricos: deben responder a decisiones prácticas y relevantes.
+Los capítulos siguen el formato de Urgencias Pediátricas: título, índice de botones, apartados numerados y bibliografía al final.
 
-- [Criterios de redacción y seguridad](criterios-editoriales.md)
-
-**Estado actual:** estructura técnica disponible; fichas clínicas todavía pendientes de incorporación y validación.
+[Consultar criterios de redacción y seguridad](criterios-editoriales.md).
