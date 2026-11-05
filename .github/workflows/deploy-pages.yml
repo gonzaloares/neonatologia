@@ -67,9 +67,7 @@ jobs:
           path: site
 
   deploy:
-    # Esperar a que GitHub Pages se habilite desde Settings → Pages.
-    # Así la compilación del PDF sigue en verde aunque Pages aún no exista.
-    if: github.event_name != 'pull_request' && github.event.repository.has_pages == true
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:
